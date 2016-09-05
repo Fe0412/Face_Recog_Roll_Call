@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/click_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10.0dp"
+        android:text="@string/clickme_camera" />
+    <Button
+        android:id="@+id/click_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/click_camera"
+        android:text="@string/clickme_local" />
+    
+    <ImageView
+        android:id="@+id/imageFace"
+        android:layout_width="match_parent"
+        android:layout_height="270.0dp"
+        android:layout_below="@+id/click_local"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10.0dp"
+        android:src="@drawable/test"
+        android:contentDescription="@string/hello_world" />
+
+    <Button
+        android:id="@+id/buttonDetectFace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Detect Face" />
+
+    <ProgressBar
+        android:id="@+id/progressBarDetect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonDetectFace"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/buttonDetectFace" 
+        android:visibility="gone"/>
+
+</RelativeLayout>
