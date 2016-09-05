@@ -4,7 +4,7 @@
 
 Undergraduate Project & Thesis, Dec 2014 - Jun 2015
 
-1 .Developed a roll call Android app based on face recognition algorithms.
+1. Developed a roll call Android app based on face recognition algorithms.
 
 2. Used Face++ API (for face detection and face recognition), external storage, JSON, excel (reading and writing) and basic functionality of Android (UI, bitmap, canvas etc.).
 
